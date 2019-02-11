@@ -1,4 +1,4 @@
-@import "templatecolours.css"
+@import "templecolours.css";
 body{
     max-width:960px;
     margin-left: auto;
@@ -29,7 +29,7 @@ nav>ul {
 
  }
  /* IMAGE SIZING CSS */
-#   Csdmlogo
+#csdmlogo
     {
     width:300px;
 
@@ -39,7 +39,39 @@ nav>ul {
         max-width: 960px;
 
     }
-    #hos
-    {
+    #hos {
         width: 200px;
     }
+/* NAVIGATION BAR CSS */
+nav>ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+nav>ul>li {
+    float: left;
+}
+nav>ul>li a {
+    display: block;
+    color: #000000;
+    text-align: center;
+    padding: 10px 30px;
+    text-decoration: none;
+}
+li a:hover {
+    color: #363636;
+}
+/* IMAGE SIZING CSS */
+#csdmlogo
+{
+    width: 300px;
+}
+#banner
+{
+    max-width: 960px;
+}
+#hos
+{
+    width: 200px;
+}
